@@ -1,0 +1,78 @@
+html, body {
+    color: #000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:16px;
+
+}
+
+h1
+{
+    font-size:25px;
+}
+
+#contentContainer
+{
+    width:800px;
+    margin:15px auto 50px auto;
+}
+
+#headerWrapper
+{
+    text-align:left;
+    margin-top:15px;
+}
+
+#descriptionWrapper
+{
+    width:100%;
+}
+
+.italic
+{
+    font-style:italic;
+}
+
+.mainPainting img
+{
+    width:100%;
+}
+
+.paintingDescription
+{
+    width:70%;
+    margin: 10px auto 30px auto;
+}
+
+.paintingTitle
+{
+    text-align:center;
+}
+
+.paintingWithDetails img
+{
+    width:100%;
+}
+
+.detailsContainer
+{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.paintingWithDetails .detail
+{
+    width:48%;
+}
+
+.processContainer .process
+{
+    width:23%;
+}
+
+@media only screen and (max-width: 650px)
+{
+    #contentContainer
+    {
+        width:90%;
+    }
+}
